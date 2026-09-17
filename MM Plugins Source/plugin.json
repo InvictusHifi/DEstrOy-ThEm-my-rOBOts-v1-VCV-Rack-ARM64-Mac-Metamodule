@@ -1,0 +1,67 @@
+{
+  "slug": "DestroyThemMyRobots",
+  "name": "DEstrOy ThEm my rOBOts",
+  "version": "2.1.0",
+  "license": "GPL-2.0-only",
+  "brand": "DEstrOy ThEm my rOBOts",
+  "author": "Edward Bass; unofficial adaptation inspired by Destroy FX",
+  "modules": [
+    {
+      "slug": "DTMR-Transverb",
+      "name": "Transverb",
+      "description": "Stereo dual moving-head tape-loop delay with clock-synced buffer/reset and full CV",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Granular",
+        "Stereo",
+        "Clock"
+      ]
+    },
+    {
+      "slug": "DTMR-Scrubby",
+      "name": "Scrubby",
+      "description": "Stereo robot-DJ live-buffer scrubber with clock-triggered jumps and full CV",
+      "tags": [
+        "Effect",
+        "Sampler",
+        "Granular",
+        "Stereo",
+        "Clock"
+      ]
+    },
+    {
+      "slug": "DTMR-BufferOverride",
+      "name": "Buffer Override",
+      "description": "Stereo clockable minibuffer repeater for robotic stutters and full-CV destruction",
+      "tags": [
+        "Effect",
+        "Sampler",
+        "Clock",
+        "Stereo"
+      ]
+    },
+    {
+      "slug": "DTMR-Skidder",
+      "name": "Skidder",
+      "description": "Stereo clockable regular or random amplitude gate with full CV",
+      "tags": [
+        "Effect",
+        "Utility",
+        "Clock",
+        "Stereo"
+      ]
+    },
+    {
+      "slug": "DTMR-Polarizer",
+      "name": "Polarizer",
+      "description": "Stereo sample-pattern polarity inverter with probability, drive and full CV",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Digital",
+        "Stereo"
+      ]
+    }
+  ]
+}

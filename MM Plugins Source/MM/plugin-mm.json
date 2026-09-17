@@ -1,0 +1,27 @@
+{
+  "MetaModuleBrandName": "DEstrOy ThEm my rOBOts",
+  "MetaModulePluginMaintainer": "Edward Bass",
+  "MetaModuleDescription": "Five effects with clock and CV control; independently branded adaptation.",
+  "MetaModuleIncludedModules": [
+    {
+      "slug": "DTMR-Transverb",
+      "name": "Transverb"
+    },
+    {
+      "slug": "DTMR-Scrubby",
+      "name": "Scrubby"
+    },
+    {
+      "slug": "DTMR-BufferOverride",
+      "name": "Buffer Override"
+    },
+    {
+      "slug": "DTMR-Skidder",
+      "name": "Skidder"
+    },
+    {
+      "slug": "DTMR-Polarizer",
+      "name": "Polarizer"
+    }
+  ]
+}

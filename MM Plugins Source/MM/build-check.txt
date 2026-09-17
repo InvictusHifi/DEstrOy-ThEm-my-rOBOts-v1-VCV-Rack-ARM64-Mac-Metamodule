@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: <workspace>/Madulations/toolchain12/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: <workspace>/Madulations/toolchain12/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: <workspace>/Madulations/toolchain12/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: <workspace>/robots-mm-fixed-build
+[0/2] Re-checking globbed directories...
+[1/31] Building CXX object plugin-sdk/cpputil/CMakeFiles/cpputil.dir/util/math_tables.cc.obj
+[2/31] Building CXX object plugin-sdk/cpputil/CMakeFiles/cpputil.dir/util/int_to_str.cc.obj
+[3/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/common_dsp.cpp.obj
+[4/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/buffer_override_engine.cpp.obj
+[5/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/polarizer_engine.cpp.obj
+[6/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/scrubby_engine.cpp.obj
+[7/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/skidder_engine.cpp.obj
+[8/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/dsp/transverb_engine.cpp.obj
+[9/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/metamodule/polarizer_module.cpp.obj
+[10/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/metamodule/buffer_override_module.cpp.obj
+[11/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/plugin.cpp.obj
+[12/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/metamodule/scrubby_module.cpp.obj
+[13/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/metamodule/skidder_module.cpp.obj
+[14/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/source/upstream/src/metamodule/transverb_module.cpp.obj
+[15/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/register_buffer_override.cpp.obj
+[16/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/register_scrubby.cpp.obj
+[17/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/register_polarizer.cpp.obj
+[18/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir<workspace>/metamodule-plugin-sdk/version.cc.obj
+[19/31] Building C object CMakeFiles/DestroyThemMyRobots.dir<workspace>/metamodule-plugin-sdk/memalign_r.c.obj
+[20/31] Building C object CMakeFiles/DestroyThemMyRobots.dir<workspace>/metamodule-plugin-sdk/unwind_exidx.c.obj
+[20/31] Validating plugin-mm.json
+[21/31] Linking CXX static library plugin-sdk/cpputil/libcpputil.a
+[23/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/register_skidder.cpp.obj
+[24/31] Building CXX object CMakeFiles/DestroyThemMyRobots.dir/src/register_transverb.cpp.obj
+[25/31] Linking CXX static library libDestroyThemMyRobots.a
+[25/31] Generating DestroyThemMyRobots-debug.so
+[26/31] Generating DestroyThemMyRobots.so
+copy from `DestroyThemMyRobots-debug.so' [elf32-littlearm] to `<workspace>/robots-mm-fixed-build/DestroyThemMyRobots.so' [elf32-littlearm]
+   text	   data	    bss	    dec	    hex	filename
+  67164	   7276	  43988	 118428	  1ce9c	<workspace>/robots-mm-fixed-build/DestroyThemMyRobots.so
+[28/31] Generating DestroyThemMyRobots-debug.so.readelf
+[29/31] Running utility command for plugin
+Checking if symbols in <workspace>/robots-mm-fixed-build/DestroyThemMyRobots.so would be resolved
+All symbols found!
+------------------
+Creating plugin at <workspace>/DestroyThemMyRobots_MM_2.1.1_FIXED/metamodule-plugins/DestroyThemMyRobots.mmplugin
